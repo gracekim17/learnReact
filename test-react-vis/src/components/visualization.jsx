@@ -7,7 +7,7 @@ import "../css/visualization.css";
 class Visualization extends Component {
   state = {
     data: [
-      [1, 2, 3, 4, 5, 6],
+      [0, 1, 2, 3, 4, 5],
       [1, 3, 4, 5],
       [1, 3, 5],
       [3, 5],
