@@ -6,7 +6,9 @@ class Round extends Component {
     return (
       <div>
         {this.props.cards.map((card) => (
-          <h1>{card}</h1>
+          <h1 style={{ border: "1px solid green", borderRadius: "10px" }}>
+            {card}
+          </h1>
         ))}
       </div>
     );
