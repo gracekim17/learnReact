@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Round from "./round";
 import LineTo from "react-lineto";
+import { Line } from "react-lineto";
 import "../css/visualization.css";
 
 class Visualization extends Component {
@@ -36,6 +37,7 @@ class Visualization extends Component {
           <div className="B">Element B</div>
           <LineTo from="A" to="B" />
         </div>
+        <Line x0={0} y0={0} x1={10} y1={10} />
       </div>
     );
   }
